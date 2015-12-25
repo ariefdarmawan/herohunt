@@ -5,6 +5,7 @@ type Player struct {
 	ID         string
 	LoginID    string
 	ScreenName string
+	MapArea    int
 }
 
 func NewPlayer() *Player {

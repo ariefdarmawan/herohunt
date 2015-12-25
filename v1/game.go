@@ -2,6 +2,7 @@ package herohunt
 
 type Game struct {
 	Players map[string]*Player
+	GameMap *GameMap
 }
 
 func NewGame() *Game {
